@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/startPageFragment">
+
+    <fragment
+        android:id="@+id/startPageFragment"
+        android:name="buu.informatics.s59160102.piggybankv2.StartPageFragment"
+        android:label="fragment_start_page"
+        tools:layout="@layout/fragment_start_page" >
+        <action
+            android:id="@+id/action_startPageFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_startPageFragment_to_about3"
+            app:destination="@id/about3" />
+    </fragment>
+    <fragment
+        android:id="@+id/about3"
+        android:name="buu.informatics.s59160102.piggybankv2.about"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_about3_to_startPageFragment"
+            app:destination="@id/startPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="buu.informatics.s59160102.piggybankv2.ListFragment"
+        android:label="ListFragment" >
+        <action
+            android:id="@+id/action_listFragment_to_addFragment"
+            app:destination="@id/addFragment"
+            app:popUpTo="@+id/listFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="buu.informatics.s59160102.piggybankv2.AddFragment"
+        android:label="AddFragment" >
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment"
+            app:popUpTo="@+id/addFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="buu.informatics.s59160102.piggybankv2.UpdateFragment"
+        android:label="UpdateFragment" >
+        <action
+            android:id="@+id/action_updateFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="sumId"
+            app:argType="long" />
+    </fragment>
+</navigation>

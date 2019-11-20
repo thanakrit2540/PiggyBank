@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PiggyBank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sum_bank"><b>sum : </b> %s</string>
+    <string name="sum_label"><![CDATA[<b>Sum: </b>]]></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Start_btn">Start</string>
+    <string name="Add_btn">Add</string>
+    <string name="Save_btn">Save</string>
+    <string name="Confirm_btn">Confirm</string>
+    <string name="Cancel_btn">Cencel</string>
+    <string name="Title_text">Piggy Bank</string>
+    <string name="Money_text">0</string>
+    <string name="About">about</string>
+    <string name="share">Share</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d correct questions!</string>
+    <string name="valueBank" />
+    <string name="textSum">\????</string>
+    <string name="Clear_btn">Clear</string>
+    <string name="Back_btn">Back</string>
+    <string name="Update_btn">Update</string>
+    <string name="EditSum_input" />
+    <string name="Sum">Sum</string>
+    <string name="EditTitle_text">Edit PiggyBank</string>
+    <string name="ListTitle_text">List PiggyBank</string>
+    <string name="AddTitle_text">Add PiggyBank</string>
+    <string name="Delete_btn">Delete</string>
+    <string name="AboutTitle_text">About PiggyBank</string>
+    <string name="Main_text"> \t\t\tPiggy bank (sometimes penny bank or money box) is the traditional name of a coin container normally used by children. The piggy bank is known to collectors as a \"still bank\" as opposed to the \"mechanical banks\" popular in the early 20th century. These items are also often used by companies for promotional purposes. The use of the name \'piggy bank\' gave rise to its widely recognized \'pig\' shape, and many financial service companies use piggy banks as logos for their savings products. Piggy banks are usually made of ceramic or porcelain. They are generally painted and serve as a pedagogical device to teach the rudiments of thrift and savings to children; money can be easily inserted. Many piggy banks have a rubber plug located on the underside; others are made of vinyl and have a removable nose for easy coin access. Some incorporate electronic systems which calculate the amount of money deposited. Some piggy banks do not have an opening besides the slot for inserting coins, which will lead to smashing the piggy bank with a hammer or by other means, to obtain the money within.</string>
+    <string name="Home">home</string>
+</resources>
